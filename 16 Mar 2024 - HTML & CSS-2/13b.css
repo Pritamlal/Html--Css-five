@@ -1,0 +1,42 @@
+.flex
+{
+    display:flex;
+    flex-direction:row;
+    
+    
+}
+
+.firstbox
+{
+    background-color: lightpink;
+    width:200px;
+    height:50px;
+}
+
+.secondbox
+{
+    background-color:lightgreen;
+    width: 200px;
+    height:50px
+}
+
+.word1
+{
+  font-weight:bold;
+  font-size:16px;
+  color:12px;
+  width:30px;
+}
+
+.row2
+{
+    flex-direction: row;
+    display: flex ;
+    justify-content: space-between;
+}
+.word2
+{
+    background-color: black;
+    color:white;
+    justify-content: spacebetween;
+}

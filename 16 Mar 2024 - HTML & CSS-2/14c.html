@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>14b</title>
+</head>
+<body>
+    <div class="right-sidebar">right-sidebar</div>
+    <div class="overlay">
+    <div class="infos">
+        <div class="first">Modal Title</div>
+        <div class="second">Modalo</div>
+        <button class="btn">Submit</button>
+    </div>
+    </div>
+</body>
+</html>
+
+<style>
+
+    .body
+    {
+        height:3000px;
+    }
+
+
+    .right-sidebar
+    {
+        position:fixed;
+        right:0;
+        top:0;
+        bottom:0;
+        background-color: lightcoral;
+        color:lightgreen;
+        width:100px;
+    }
+
+
+    .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+    .first
+    {
+        background-color: white;
+        width: 300px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 5px;
+}
+    .second
+    {
+        font-family: Arial;
+        font-weight: bold;
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+    .third
+    {
+        font-family: Arial;
+        margin-bottom: 12px;
+    }
+</style>
